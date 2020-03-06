@@ -98,7 +98,13 @@ main {
 
 /* add styles here for lightbox and video */
 
-
+.house-info {
+	color: white;
+	font-size: 1.5em;
+	line-height: 1.5;
+	width: 75%;
+	margin: 0 auto;
+}
 
 video {
 	width: 80%;
