@@ -2,15 +2,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>DOM Traversal</title>
+<title>Game of Thrones Info Page</title>
 <link href="css/meyerReset.css" rel="stylesheet" type="text/css" media="screen">
 <link href="css/GOT_master.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 
 <body>
     <main>
-
+    <h1 class="hidden">Game of Thrones Info Page - JavaScript assignment</h1>
     <section id="imageContainer">
+        <h2 class="hidden">Side-scrolling House Banner Images</h2>
         <div id="houseImages"> <!-- add in all of the images to make a scrolling "banner" -->
             <img class="stark_banner" src="images/stark.jpg"/>
             <img class="baratheon_banner" src="images/baratheon.jpg"/>
@@ -22,6 +23,7 @@
     </section>
 
     <nav id="bottomNav">
+         <h2 class="hidden">Sigil Buttons Navigation</h2>
         <ul id="navList">
             <!-- custom data attribute, allowing to pass custom data https://developer.mozilla.org/en/docs/Web/API/HTMLElement/dataset -->
             <li><div class="sigilContainer stark" data-offset="0"></div></li>
@@ -32,15 +34,18 @@
             <li><div class="sigilContainer arryn" data-offset="5"></div></li>
         </ul>
     </nav>
+    
+    <h2 class="hidden">House Name and Description</h2>
+    <h4>(Video will pop up after animation is finished, please wait...)</h4>
+    <h3>Winter is Coming! Learn as much as you can about the Clans of Westeros to prepare...</h3>
 
-    <h1>Winter is Coming! Learn as much as you can about the Clans of Westeros to prepare...</h1><!-- replace this with the house name -->
-
-    <p class="house-info"></p><!-- replace this with house details (github gist) -->
+    <p class="house-info"></p>
 </main>  <!--end mainContainer-->
 
 <!-- lightbox goes here, at the top of the stack -->
 
 <section class="lightbox notPlaying">
+    <h2 class="hidden">Video Player</h2>
 
  <video class="video-player" src="video/House-Stark.mp4"></video>
   <div class="lightbox-cover"></div>
