@@ -10,7 +10,7 @@ You need a modern browser (site was made for Google Chrome) and a terminal windo
 
 ## Installation
 
-1. Use the terminal window to CD to your documents folder (or whereever you want the website saved) 
+1. Use the terminal window to CD to your documents folder (or wherever you want the website saved) 
 2. 'git clone' the repository into your folder
 3. Open up index.html
 4. Done!
