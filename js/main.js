@@ -7,7 +7,7 @@
       pauseButton = document.querySelector(".pause"),
       playButton = document.querySelector(".play"),
       rewindButton = document.querySelector(".rewind"),
-      houseName = document.querySelector("h1"),
+      houseName = document.querySelector("h3"),
       houseDescription = document.querySelector(".house-info"), 
       vidControls = document.querySelector(".controls"),
       boxCover = document.querySelector(".lightbox-cover"),
