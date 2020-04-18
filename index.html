@@ -12,12 +12,12 @@
 
     <section id="imageContainer">
         <div id="houseImages"> <!-- add in all of the images to make a scrolling "banner" -->
-            <img src="images/stark.jpg"/>
-            <img src="images/baratheon.jpg"/>
-            <img src="images/lannister.jpg"/>
-            <img src="images/tully.jpg"/>
-            <img src="images/greyjoy.jpg"/>
-            <img src="images/arryn.jpg"/>
+            <img class="stark_banner" src="images/stark.jpg"/>
+            <img class="baratheon_banner" src="images/baratheon.jpg"/>
+            <img class="lannister_banner" src="images/lannister.jpg"/>
+            <img class="tully_banner" src="images/tully.jpg"/>
+            <img class="greyjoy_banner" src="images/greyjoy.jpg"/>
+            <img class="arryn_banner" src="images/arryn.jpg"/>
         </div>
     </section>
 
@@ -33,20 +33,26 @@
         </ul>
     </nav>
 
-    <h1>clever tagline goes here</h1><!-- replace this with the house name -->
+    <h1>Winter is Coming! Learn as much as you can about the Clans of Westeros to prepare...</h1><!-- replace this with the house name -->
 
     <p class="house-info"></p><!-- replace this with house details (github gist) -->
 </main>  <!--end mainContainer-->
 
 <!-- lightbox goes here, at the top of the stack -->
-<section class="lightbox">
-  <span class="lightbox-close">X</span>
 
-  <!-- show the current house video -->
-  <video class="video-player" src="video/House-Stark.mp4"></video>
-  <button class="playPause">Pause</button>
-  <button class="rWind">Rewind</button>
+<section class="lightbox notPlaying">
+
+ <video class="video-player" src="video/House-Stark.mp4"></video>
+  <div class="lightbox-cover"></div>
+    <div class="controls">
+    <button class="close">Close</button>
+    <button class="pause">Pause</button>
+    <button class="play">Play</button>
+    <button class="rewind">Rewind</button>
+    </div>
+
 </section>
+
 
 <script src="js/main.js"></script>
 </body>
